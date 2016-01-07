@@ -7,3 +7,13 @@ git branch -- allows us to keep code separated based on what we are trying to de
 git branch -a -- shows us the existing branches on our repository
 
 git remote -v -- shows us the url/repository that our current repo is aware of
+
+git add -- lets us add new files to be tracked by git to our repo
+
+git commit -a -- saves all of our changes on the local computer into a thing called a commit. A commit is a set of changes.
+
+git commit file1 file2 ... -- commits only specific file changes to our local branch.
+
+git push -- this will send our local commits to our default remote git service (e.g. github.)
+
+git pull -- check the remote server for new commits. if there are then this command will fetch them (git fetch) then it will merge the new changes with our local branch (with a git merge)
